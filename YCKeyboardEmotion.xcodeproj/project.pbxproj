@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0272C74E1CFE01650094C56B /* KeyboardEmoticonTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0272C74D1CFE01650094C56B /* KeyboardEmoticonTextView.m */; };
+		B20BEBDA1CFD76CD00361E91 /* KeyboardTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = B20BEBD91CFD76CD00361E91 /* KeyboardTextAttachment.m */; };
+		B237940B1CFBDEAD005FAB58 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B23794091CFBDEAD005FAB58 /* compose_emotion_delete@2x.png */; };
+		B237940C1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B237940A1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png */; };
+		B237940F1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B237940D1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png */; };
+		B23794101CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B237940E1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png */; };
+		B25F91EF1CF7DE8B00B6D3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F91EE1CF7DE8B00B6D3A2 /* main.m */; };
+		B25F91F21CF7DE8B00B6D3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F91F11CF7DE8B00B6D3A2 /* AppDelegate.m */; };
+		B25F91F51CF7DE8B00B6D3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F91F41CF7DE8B00B6D3A2 /* ViewController.m */; };
+		B25F91F81CF7DE8B00B6D3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25F91F61CF7DE8B00B6D3A2 /* Main.storyboard */; };
+		B25F91FA1CF7DE8B00B6D3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25F91F91CF7DE8B00B6D3A2 /* Assets.xcassets */; };
+		B25F91FD1CF7DE8B00B6D3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25F91FB1CF7DE8B00B6D3A2 /* LaunchScreen.storyboard */; };
+		B25F92071CF7DEE400B6D3A2 /* KeyboardEmotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F92061CF7DEE400B6D3A2 /* KeyboardEmotionViewController.m */; };
+		B25F92091CF7EBDB00B6D3A2 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B25F92081CF7EBDB00B6D3A2 /* Emoticons.bundle */; };
+		B25F920C1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F920B1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.m */; };
+		B25F920F1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F920E1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.m */; };
+		B25F92121CF814CB00B6D3A2 /* KeyboardEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F92111CF814CB00B6D3A2 /* KeyboardEmoticon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0272C74C1CFE01650094C56B /* KeyboardEmoticonTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmoticonTextView.h; sourceTree = "<group>"; };
+		0272C74D1CFE01650094C56B /* KeyboardEmoticonTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmoticonTextView.m; sourceTree = "<group>"; };
+		B20BEBD81CFD76CD00361E91 /* KeyboardTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardTextAttachment.h; sourceTree = "<group>"; };
+		B20BEBD91CFD76CD00361E91 /* KeyboardTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardTextAttachment.m; sourceTree = "<group>"; };
+		B23794091CFBDEAD005FAB58 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		B237940A1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
+		B237940D1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@2x.png"; sourceTree = "<group>"; };
+		B237940E1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@3x.png"; sourceTree = "<group>"; };
+		B25F91EA1CF7DE8B00B6D3A2 /* YCKeyboardEmotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCKeyboardEmotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25F91EE1CF7DE8B00B6D3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B25F91F01CF7DE8B00B6D3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B25F91F11CF7DE8B00B6D3A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B25F91F31CF7DE8B00B6D3A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B25F91F41CF7DE8B00B6D3A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B25F91F71CF7DE8B00B6D3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B25F91F91CF7DE8B00B6D3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B25F91FC1CF7DE8B00B6D3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B25F91FE1CF7DE8B00B6D3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25F92051CF7DEE400B6D3A2 /* KeyboardEmotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmotionViewController.h; sourceTree = "<group>"; };
+		B25F92061CF7DEE400B6D3A2 /* KeyboardEmotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmotionViewController.m; sourceTree = "<group>"; };
+		B25F92081CF7EBDB00B6D3A2 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		B25F920A1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmotionCollectionViewCell.h; sourceTree = "<group>"; };
+		B25F920B1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmotionCollectionViewCell.m; sourceTree = "<group>"; };
+		B25F920D1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmotionPackage.h; sourceTree = "<group>"; };
+		B25F920E1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmotionPackage.m; sourceTree = "<group>"; };
+		B25F92101CF814CB00B6D3A2 /* KeyboardEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmoticon.h; sourceTree = "<group>"; };
+		B25F92111CF814CB00B6D3A2 /* KeyboardEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmoticon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25F91E71CF7DE8B00B6D3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B25F91E11CF7DE8B00B6D3A2 = {
+			isa = PBXGroup;
+			children = (
+				B25F91EC1CF7DE8B00B6D3A2 /* YCKeyboardEmotion */,
+				B25F91EB1CF7DE8B00B6D3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B25F91EB1CF7DE8B00B6D3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25F91EA1CF7DE8B00B6D3A2 /* YCKeyboardEmotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25F91EC1CF7DE8B00B6D3A2 /* YCKeyboardEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				B25F92041CF7DEBC00B6D3A2 /* Keyboard */,
+				B25F91F01CF7DE8B00B6D3A2 /* AppDelegate.h */,
+				B25F91F11CF7DE8B00B6D3A2 /* AppDelegate.m */,
+				B25F91F31CF7DE8B00B6D3A2 /* ViewController.h */,
+				B25F91F41CF7DE8B00B6D3A2 /* ViewController.m */,
+				B25F91F61CF7DE8B00B6D3A2 /* Main.storyboard */,
+				B25F91F91CF7DE8B00B6D3A2 /* Assets.xcassets */,
+				B25F91FB1CF7DE8B00B6D3A2 /* LaunchScreen.storyboard */,
+				B25F91FE1CF7DE8B00B6D3A2 /* Info.plist */,
+				B25F91ED1CF7DE8B00B6D3A2 /* Supporting Files */,
+			);
+			path = YCKeyboardEmotion;
+			sourceTree = "<group>";
+		};
+		B25F91ED1CF7DE8B00B6D3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25F91EE1CF7DE8B00B6D3A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B25F92041CF7DEBC00B6D3A2 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B237940D1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png */,
+				B237940E1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png */,
+				B23794091CFBDEAD005FAB58 /* compose_emotion_delete@2x.png */,
+				B237940A1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png */,
+				B25F92081CF7EBDB00B6D3A2 /* Emoticons.bundle */,
+				B25F920A1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.h */,
+				B25F920B1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.m */,
+				B25F92051CF7DEE400B6D3A2 /* KeyboardEmotionViewController.h */,
+				B25F92061CF7DEE400B6D3A2 /* KeyboardEmotionViewController.m */,
+				B25F92101CF814CB00B6D3A2 /* KeyboardEmoticon.h */,
+				B25F92111CF814CB00B6D3A2 /* KeyboardEmoticon.m */,
+				B25F920D1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.h */,
+				B25F920E1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.m */,
+				B20BEBD81CFD76CD00361E91 /* KeyboardTextAttachment.h */,
+				B20BEBD91CFD76CD00361E91 /* KeyboardTextAttachment.m */,
+				0272C74C1CFE01650094C56B /* KeyboardEmoticonTextView.h */,
+				0272C74D1CFE01650094C56B /* KeyboardEmoticonTextView.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B25F91E91CF7DE8B00B6D3A2 /* YCKeyboardEmotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25F92011CF7DE8B00B6D3A2 /* Build configuration list for PBXNativeTarget "YCKeyboardEmotion" */;
+			buildPhases = (
+				B25F91E61CF7DE8B00B6D3A2 /* Sources */,
+				B25F91E71CF7DE8B00B6D3A2 /* Frameworks */,
+				B25F91E81CF7DE8B00B6D3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCKeyboardEmotion;
+			productName = YCKeyboardEmotion;
+			productReference = B25F91EA1CF7DE8B00B6D3A2 /* YCKeyboardEmotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25F91E21CF7DE8B00B6D3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yanglinxia;
+				TargetAttributes = {
+					B25F91E91CF7DE8B00B6D3A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = F9BK9LE44F;
+					};
+				};
+			};
+			buildConfigurationList = B25F91E51CF7DE8B00B6D3A2 /* Build configuration list for PBXProject "YCKeyboardEmotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B25F91E11CF7DE8B00B6D3A2;
+			productRefGroup = B25F91EB1CF7DE8B00B6D3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B25F91E91CF7DE8B00B6D3A2 /* YCKeyboardEmotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B25F91E81CF7DE8B00B6D3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F91FD1CF7DE8B00B6D3A2 /* LaunchScreen.storyboard in Resources */,
+				B23794101CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png in Resources */,
+				B25F92091CF7EBDB00B6D3A2 /* Emoticons.bundle in Resources */,
+				B237940F1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png in Resources */,
+				B237940B1CFBDEAD005FAB58 /* compose_emotion_delete@2x.png in Resources */,
+				B25F91FA1CF7DE8B00B6D3A2 /* Assets.xcassets in Resources */,
+				B25F91F81CF7DE8B00B6D3A2 /* Main.storyboard in Resources */,
+				B237940C1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B25F91E61CF7DE8B00B6D3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F920C1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.m in Sources */,
+				B25F920F1CF7F75F00B6D3A2 /* KeyboardEmotionPackage.m in Sources */,
+				0272C74E1CFE01650094C56B /* KeyboardEmoticonTextView.m in Sources */,
+				B20BEBDA1CFD76CD00361E91 /* KeyboardTextAttachment.m in Sources */,
+				B25F92121CF814CB00B6D3A2 /* KeyboardEmoticon.m in Sources */,
+				B25F91F51CF7DE8B00B6D3A2 /* ViewController.m in Sources */,
+				B25F92071CF7DEE400B6D3A2 /* KeyboardEmotionViewController.m in Sources */,
+				B25F91F21CF7DE8B00B6D3A2 /* AppDelegate.m in Sources */,
+				B25F91EF1CF7DE8B00B6D3A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B25F91F61CF7DE8B00B6D3A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F91F71CF7DE8B00B6D3A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B25F91FB1CF7DE8B00B6D3A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F91FC1CF7DE8B00B6D3A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B25F91FF1CF7DE8B00B6D3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B25F92001CF7DE8B00B6D3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25F92021CF7DE8B00B6D3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YCKeyboardEmotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinguanxi.YCKeyboardEmotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B25F92031CF7DE8B00B6D3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YCKeyboardEmotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinguanxi.YCKeyboardEmotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25F91E51CF7DE8B00B6D3A2 /* Build configuration list for PBXProject "YCKeyboardEmotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F91FF1CF7DE8B00B6D3A2 /* Debug */,
+				B25F92001CF7DE8B00B6D3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25F92011CF7DE8B00B6D3A2 /* Build configuration list for PBXNativeTarget "YCKeyboardEmotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F92021CF7DE8B00B6D3A2 /* Debug */,
+				B25F92031CF7DE8B00B6D3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25F91E21CF7DE8B00B6D3A2 /* Project object */;
+}

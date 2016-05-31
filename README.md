@@ -5,8 +5,21 @@
 * 项目中使用objective-c，参考别人的swift所写。
 
 ###效果图如下 
- ![image](https://github.com/linxyang/emojiKeyboardDemo/screenshots/1.gif)
+* 弹出与退出键盘
 
+  ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/1.gif)
+ 
+ * 添加表情
+ 
+   ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/2.gif)
+ 
+ * 删除表情
+ 
+   ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/3.gif)
+  
+ * 获取textView中的内容文字
+ 
+   ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/4.gif)
 ###集成方法
 1、 把demo中的keyboard文件夹直接拖入你的项目中
 
@@ -34,7 +47,12 @@
 - (KeyboardEmoticonTextView *)custTextView
 {
     if (!_custTextView) {
-        _custTextView = [[KeyboardEmoticonTextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width,200)];
+        KeyboardEmoticonTextView *textView = [[KeyboardEmoticonTextView alloc] initWithFrame:CGRectMake(0, 30, self.view.bounds.size.width, 200)];
+        textView.backgroundColor = [UIColor lightGrayColor];
+        textView.font = [UIFont systemFontOfSize:20];
+        textView.text = @"这一个简单的自定义表情键盘Demo，可以实现emoji与图片表情";
+        [self.view addSubview:textView];
+        _custTextView = textView;
     }
     return _custTextView;
 }

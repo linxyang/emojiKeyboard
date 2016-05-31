@@ -4,22 +4,23 @@
 * 最近项目中用到表情键盘这块，于是根据着网上想关资料，写了一个键盘，仅供参考。
 * 项目中使用objective-c，参考别人的swift所写。
 
-###效果图如下 
-* 弹出与退出键盘
+###效果图如下: 
+#####弹出与退出键盘
 
   ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/1.gif)
  
- * 添加表情
+#####添加表情
  
    ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/2.gif)
  
- * 删除表情
+#####删除表情
  
    ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/3.gif)
   
- * 获取textView中的内容文字
+#####获取textView中的内容文字
  
    ![image](https://github.com/linxyang/emojiKeyboardDemo/blob/master/screenshots/4.gif)
+
 ###集成方法
 1、 把demo中的keyboard文件夹直接拖入你的项目中
 

@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0272C74E1CFE01650094C56B /* KeyboardEmoticonTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0272C74D1CFE01650094C56B /* KeyboardEmoticonTextView.m */; };
+		028EFF471D00167300F038D9 /* deletePng.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 028EFF461D00167300F038D9 /* deletePng.bundle */; };
 		B20BEBDA1CFD76CD00361E91 /* KeyboardTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = B20BEBD91CFD76CD00361E91 /* KeyboardTextAttachment.m */; };
-		B237940B1CFBDEAD005FAB58 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B23794091CFBDEAD005FAB58 /* compose_emotion_delete@2x.png */; };
-		B237940C1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B237940A1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png */; };
-		B237940F1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B237940D1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png */; };
-		B23794101CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B237940E1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png */; };
 		B25F91EF1CF7DE8B00B6D3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F91EE1CF7DE8B00B6D3A2 /* main.m */; };
 		B25F91F21CF7DE8B00B6D3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F91F11CF7DE8B00B6D3A2 /* AppDelegate.m */; };
 		B25F91F51CF7DE8B00B6D3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F91F41CF7DE8B00B6D3A2 /* ViewController.m */; };
@@ -29,12 +26,9 @@
 /* Begin PBXFileReference section */
 		0272C74C1CFE01650094C56B /* KeyboardEmoticonTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmoticonTextView.h; sourceTree = "<group>"; };
 		0272C74D1CFE01650094C56B /* KeyboardEmoticonTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmoticonTextView.m; sourceTree = "<group>"; };
+		028EFF461D00167300F038D9 /* deletePng.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = deletePng.bundle; sourceTree = "<group>"; };
 		B20BEBD81CFD76CD00361E91 /* KeyboardTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardTextAttachment.h; sourceTree = "<group>"; };
 		B20BEBD91CFD76CD00361E91 /* KeyboardTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardTextAttachment.m; sourceTree = "<group>"; };
-		B23794091CFBDEAD005FAB58 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
-		B237940A1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
-		B237940D1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@2x.png"; sourceTree = "<group>"; };
-		B237940E1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@3x.png"; sourceTree = "<group>"; };
 		B25F91EA1CF7DE8B00B6D3A2 /* YCKeyboardEmotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCKeyboardEmotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25F91EE1CF7DE8B00B6D3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B25F91F01CF7DE8B00B6D3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,10 +105,7 @@
 		B25F92041CF7DEBC00B6D3A2 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				B237940D1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png */,
-				B237940E1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png */,
-				B23794091CFBDEAD005FAB58 /* compose_emotion_delete@2x.png */,
-				B237940A1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png */,
+				028EFF461D00167300F038D9 /* deletePng.bundle */,
 				B25F92081CF7EBDB00B6D3A2 /* Emoticons.bundle */,
 				B25F920A1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.h */,
 				B25F920B1CF7EC1D00B6D3A2 /* KeyboardEmotionCollectionViewCell.m */,
@@ -191,13 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25F91FD1CF7DE8B00B6D3A2 /* LaunchScreen.storyboard in Resources */,
-				B23794101CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@3x.png in Resources */,
 				B25F92091CF7EBDB00B6D3A2 /* Emoticons.bundle in Resources */,
-				B237940F1CFBDEB7005FAB58 /* compose_emotion_delete_highlighted@2x.png in Resources */,
-				B237940B1CFBDEAD005FAB58 /* compose_emotion_delete@2x.png in Resources */,
 				B25F91FA1CF7DE8B00B6D3A2 /* Assets.xcassets in Resources */,
+				028EFF471D00167300F038D9 /* deletePng.bundle in Resources */,
 				B25F91F81CF7DE8B00B6D3A2 /* Main.storyboard in Resources */,
-				B237940C1CFBDEAD005FAB58 /* compose_emotion_delete@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

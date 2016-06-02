@@ -49,8 +49,10 @@
     // 3.删除按钮
     if(emoticon.isRemoveButtonFlag)
     {
-        [_iconButton setImage:[UIImage imageNamed:@"compose_emotion_delete"] forState:UIControlStateNormal];
-        [_iconButton setImage:[UIImage imageNamed:@"compose_emotion_delete_highlighted"] forState:UIControlStateHighlighted];
+        NSString *path1 = [[NSBundle mainBundle] pathForResource:@"compose_emotion_delete" ofType:@"png" inDirectory:@"deletePng.bundle"];
+        NSString *path2 = [[NSBundle mainBundle] pathForResource:@"compose_emotion_delete_highlighted" ofType:@"png" inDirectory:@"delete.bundle"];
+        [_iconButton setImage:[UIImage imageWithContentsOfFile:path1] forState:UIControlStateNormal];
+        [_iconButton setImage:[UIImage imageWithContentsOfFile:path2] forState:UIControlStateHighlighted];
     }
 }
 
